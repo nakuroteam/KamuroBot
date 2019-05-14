@@ -1,8 +1,8 @@
 # KamuroBot
-![alt text](KamuroBot.png)
+<img src="KamuroBot.png" alt="drawing" width="500"/>
 Bot for Discord.
 
 Install the project :
-  * 1/ git clone https://github.com/nakuroteam/KamuroBot.git
-  * 2/ npm install
-  * 3/ npm i --save discord.js
+  * git clone https://github.com/nakuroteam/KamuroBot.git
+  * npm install
+  * npm i --save discord.js
