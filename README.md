@@ -1,0 +1,2 @@
+# KamuroBot
+Bot for Discord.
