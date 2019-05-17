@@ -1,5 +1,5 @@
 /** IMPORTS **/
-//import { welcomeListener } from './welcome.js';
+const constants = require('./constants.js');
 const welcomeListener = require('./welcome.js').welcomeListener;
 const soundBoxListener = require('./soundbox.js').soundBoxListener;
 
@@ -13,7 +13,7 @@ bot.on('ready', function () {
 
 });
 
-bot.login('NTc3OTYzNjQyMTIxODc5NTgy.XNsx3A.aGWdmf746b8GF7SUEf05Dq850Y0');
+bot.login(constants.botID);
 
 /** Activation of every listeners **/
 
