@@ -36,3 +36,5 @@ UserInterfaceState.xcuserstate
 /package-lock.json
 /tsconfig.json
 /tslint.json
+
+constants.js
