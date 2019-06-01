@@ -35,7 +35,9 @@ function playAudioFile(voiceChannel, filename){
             const dispatcher = connection.playFile('./ressources/sounds/' + filename);
 
             dispatcher.on('end', function () {
-                voiceChannel.leave();
+                setTimeout(function(){
+                    voiceChannel.leave();
+                }, 2000);
             });
         }).catch(console.error);
     }
@@ -54,7 +56,9 @@ function playYoutubeAudio(voiceChannel, url){
             const dispatcher = connection.playStream(stream, streamOptions);
 
             dispatcher.on('end', function () {
-                voiceChannel.leave();
+                setTimeout(function(){
+                    voiceChannel.leave();
+                }, 2000);
             });
         }).catch(console.error);
     }
