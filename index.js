@@ -1,5 +1,5 @@
 /** IMPORTS **/
-//import { welcomeListener } from './welcome.js';
+const constants = require('./constants.js');
 const welcomeListener = require('./welcome.js').welcomeListener;
 const soundBoxListener = require('./soundbox.js').soundBoxListener;
 const botID = require('./constants.js').botID;
