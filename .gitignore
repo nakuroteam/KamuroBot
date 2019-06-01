@@ -37,4 +37,4 @@ UserInterfaceState.xcuserstate
 /tsconfig.json
 /tslint.json
 
-constants.js
+./constants.js
