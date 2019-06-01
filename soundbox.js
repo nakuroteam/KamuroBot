@@ -1,6 +1,4 @@
 exports.soundBoxListener = function (bot) {
-    
-
     bot.on('message', message => {
         let voiceChannel = message.member.voiceChannel;
         if (message.content.startsWith('>ohdjadja') || message.content.startsWith('>OHDJADJA')) {
@@ -18,8 +16,18 @@ exports.soundBoxListener = function (bot) {
         else if (message.content.startsWith('>ah') || message.content.startsWith('>AH')) {
             playYoutubeAudio(voiceChannel, 'https://www.youtube.com/watch?v=XE6YaLtctcI');
         }
+        else if(message.content.startsWith('>boss')){
+            playYoutubeAudio(voiceChannel, 'https://www.youtube.com/watch?v=sl_WPD7pZTA');
+        }
+        else if(message.content.startsWith('>quit')){
+            if(voiceChannel != null){
+                voiceChannel.leave();
+            }
+        }
     });
 }
+
+
 
 function playAudioFile(voiceChannel, filename){
     if(voiceChannel != null){

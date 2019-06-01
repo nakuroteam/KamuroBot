@@ -2,6 +2,7 @@
 //import { welcomeListener } from './welcome.js';
 const welcomeListener = require('./welcome.js').welcomeListener;
 const soundBoxListener = require('./soundbox.js').soundBoxListener;
+const botID = require('./constants.js').botID;
 
 /** Connexion to Discord **/
 
@@ -13,7 +14,7 @@ bot.on('ready', function () {
 
 });
 
-bot.login('NTc3OTYzNjQyMTIxODc5NTgy.XNsx3A.aGWdmf746b8GF7SUEf05Dq850Y0');
+bot.login(botID);
 
 /** Activation of every listeners **/
 
