@@ -6,4 +6,4 @@
  * node-opus
  */
 
-exports.botID = "NTc3OTYzNjQyMTIxODc5NTgy.XN6thw.ndwtC7RGIIavwC18d3epJSMM1Ic";
+exports.botID = "NTc3OTYzNjQyMTIxODc5NTgy.XPJ5FQ.vKpJxEYUgB5gfcqtKZ7KupUUfsA";
